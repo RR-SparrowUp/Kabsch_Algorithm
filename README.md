@@ -125,10 +125,11 @@ To run this project locally, follow the steps below:
    ```
 
 4.Running the Application
-After installing the dependencies, run the Streamlit app:
-  ```bash
-streamlit run app.py
-```
-License
+  After installing the dependencies, run the Streamlit app:
+    ```bash
+      streamlit run app.py
+    ```
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
