@@ -52,17 +52,17 @@ The transformation minimizes the difference between the two point sets.
    - Calculate the centroids of both point sets:
      
      
-     $$\(\{C}_P = \frac{1}{n} \sum_{i=1}^{n} p_i)$$
+     $$\(Cp = \frac{1}{n} \sum_{i=1}^{n} p_i)$$
 
-     $$\(\{C}_Q = \frac{1}{n} \sum_{i=1}^{n} q_i)$$
+     $$\(Cq = \frac{1}{n} \sum_{i=1}^{n} q_i)$$
      
 
    - Center the points by subtracting the centroid from each point:
      
      
-     $$\(\tilde{P} = P - \text{centroid}_P)$$
+     $$\(\tilde{P} = P - \Cp)$$
      
-     $$\(\tilde{Q} = Q - \text{centroid}_Q)$$
+     $$\(\tilde{Q} = Q - \Cq)$$
 
 2. **Covariance Matrix**:
    - Calculate the covariance matrix $$\( H \)$$:
@@ -86,7 +86,7 @@ The transformation minimizes the difference between the two point sets.
 5. **Translation Vector**:
    - Calculate the translation vector $$\( t \)$$:
      $$\[
-     t = \text{centroid}_Q - R \cdot \text{centroid}_P
+     t = \text{centroid}_Q - R \cdot \Cp
      \]$$
 
 6. **Apply Transformation**:
