@@ -111,7 +111,7 @@ To run this project locally, follow the steps below:
 
 1. Clone the repository:
    ```bash
-   [git clone https://github.com/your-username/kabsch-algorithm-app.git](https://github.com/RR-SparrowUp/Kabsch_Algorithm)
+   git clone https://github.com/your-username/kabsch-algorithm-app.git](https://github.com/RR-SparrowUp/Kabsch_Algorithm
    ```
 
 2. Navigate to the project directory:
