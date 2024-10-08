@@ -60,9 +60,9 @@ The transformation minimizes the difference between the two point sets.
    - Center the points by subtracting the centroid from each point:
      
      
-     $$\(tilde{P} = P - \text{centroid}_P)$$
+     $$\(`{P} = P - \text{centroid}_P)$$
      
-     $$\(tilde{Q} = Q - \text{centroid}_Q)$$
+     $$\(`{Q} = Q - \text{centroid}_Q)$$
 
 2. **Covariance Matrix**:
    - Calculate the covariance matrix $$\( H \)$$:
