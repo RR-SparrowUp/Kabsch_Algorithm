@@ -52,7 +52,7 @@ The transformation minimizes the difference between the two point sets.
    - Calculate the centroids of both point sets:
      
      
-     $$\text{centroid}_P = \frac{1}{n} \sum_{i=1}^{n} p_i$$
+     $$\(Cp = \frac{1}{n} \sum_{i=1}^{n} p_i)$$
      
 
      $$
