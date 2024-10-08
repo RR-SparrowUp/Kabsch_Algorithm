@@ -53,23 +53,16 @@ The transformation minimizes the difference between the two point sets.
      
      
      $$\(Cp = \frac{1}{n} \sum_{i=1}^{n} p_i)$$
-     
 
-     $$
-     \text{centroid}_Q = \frac{1}{n} \sum_{i=1}^{n} q_i
-     $$
+     $$\(Cq = \frac{1}{n} \sum_{i=1}^{n} q_i)$$
+     
 
    - Center the points by subtracting the centroid from each point:
      
-     $$
-     \tilde{P} = P - \text{centroid}_P
-     $$
-
-     $$
-     \tilde{Q} = Q - \text{centroid}_Q
-     $$
-
-
+     
+     $$\(tilde{P} = P - \text{centroid}_P)$$
+     
+     $$\(tilde{Q} = Q - \text{centroid}_Q)$$
 
 2. **Covariance Matrix**:
    - Calculate the covariance matrix $$\( H \)$$:
