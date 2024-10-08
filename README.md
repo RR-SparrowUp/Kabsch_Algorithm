@@ -50,12 +50,15 @@ The transformation minimizes the difference between the two point sets.
 
 1. **Centering the Points**: 
    - Calculate the centroids of both point sets:
+     
      $$\[
      \text{centroid}_P = \frac{1}{n} \sum_{i=1}^{n} p_i
      \]$$
+     
      $$\[
      \text{centroid}_Q = \frac{1}{n} \sum_{i=1}^{n} q_i
      \]$$
+     
    - Center the points by subtracting the centroid from each point:
      $$\[
      \tilde{P} = P - \text{centroid}_P
