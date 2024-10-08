@@ -32,7 +32,7 @@ This project implements the **Kabsch algorithm** to find the optimal rotation an
 
 ### Mathematical Overview
 
-The **Kabsch algorithm** finds the optimal rotation matrix $$\( R \)$$and translation vector $$\( t \)$$ that minimizes the root-mean-square deviation (RMSD) between two sets of points:$$ \( P \) (ground points)$$ and$$ \( Q \) (elevated points)$$.
+The **Kabsch algorithm** finds the optimal rotation matrix $$\( R \)$$ and translation vector $$\( t \)$$ that minimizes the root-mean-square deviation (RMSD) between two sets of points:$$\( P \)$$ (ground points) and $$\( Q \)$$ (elevated points).
 
 Given two sets of corresponding points:
 - Ground points: $$\( P = \{p_1, p_2, \dots, p_n\} \)$$
@@ -50,50 +50,50 @@ The transformation minimizes the difference between the two point sets.
 
 1. **Centering the Points**: 
    - Calculate the centroids of both point sets:
-     \[
+     $$\[
      \text{centroid}_P = \frac{1}{n} \sum_{i=1}^{n} p_i
-     \]
-     \[
+     \]$$
+     $$\[
      \text{centroid}_Q = \frac{1}{n} \sum_{i=1}^{n} q_i
-     \]
+     \]$$
    - Center the points by subtracting the centroid from each point:
-     \[
+     $$\[
      \tilde{P} = P - \text{centroid}_P
-     \]
-     \[
+     \]$$
+    $$ \[
      \tilde{Q} = Q - \text{centroid}_Q
-     \]
+     \]$$
 
 2. **Covariance Matrix**:
-   - Calculate the covariance matrix \( H \):
-     \[
+   - Calculate the covariance matrix $$\( H \)$$:
+     $$\[
      H = \tilde{P}^T \cdot \tilde{Q}
-     \]
+     \]$$
 
 3. **Singular Value Decomposition (SVD)**:
    - Perform SVD on the covariance matrix \( H \):
-     \[
+     $$\[
      H = U \cdot S \cdot V^T
-     \]
-   - The rotation matrix \( R \) is given by:
-     \[
+     \]$$
+   - The rotation matrix $$\( R \)$$ is given by:
+     $$\[
      R = V \cdot U^T
-     \]
+     \]$$
 
 4. **Special Case for Reflection**:
-   - If the determinant of \( R \) is negative (i.e., reflection is detected), negate the last row of \( V \) and recompute \( R \).
+   - If the determinant of $$\( R \)$$ is negative (i.e., reflection is detected), negate the last row of $$\( V \)$$ and recompute $$\( R \)$$.
 
 5. **Translation Vector**:
-   - Calculate the translation vector \( t \):
-     \[
+   - Calculate the translation vector $$\( t \)$$:
+     $$\[
      t = \text{centroid}_Q - R \cdot \text{centroid}_P
-     \]
+     \]$$
 
 6. **Apply Transformation**:
    - Finally, apply the transformation to the ground points to get the transformed points:
-     \[
+     $$\[
      \tilde{P}_{\text{transformed}} = R \cdot P + t
-     \]
+     \]$$
 
 ## Installation
 
