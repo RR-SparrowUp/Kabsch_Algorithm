@@ -1,5 +1,3 @@
-# kabsch.py
-
 import numpy as np
 import streamlit as st
 
@@ -34,7 +32,7 @@ def perform_kabsch(ground_points, elevated_points):
 
     H = ground_centered.T @ elevated_centered
 
-    #Find H insverse 
+    #Find H insverse (or)
 
     # Perform Singular Value Decomposition
     U, S, Vt = np.linalg.svd(H)
