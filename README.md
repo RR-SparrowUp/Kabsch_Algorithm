@@ -60,9 +60,9 @@ The transformation minimizes the difference between the two point sets.
    - Center the points by subtracting the centroid from each point:
      
      
-     $$\(\tilde{P} = P - \Cp)$$
+     $$\(\tilde{P} = P - Cp)$$
      
-     $$\(\tilde{Q} = Q - \Cq)$$
+     $$\(\tilde{Q} = Q - Cq)$$
 
 2. **Covariance Matrix**:
    - Calculate the covariance matrix $$\( H \)$$:
@@ -86,7 +86,7 @@ The transformation minimizes the difference between the two point sets.
 5. **Translation Vector**:
    - Calculate the translation vector $$\( t \)$$:
      $$\[
-     t = \text{centroid}_Q - R \cdot \Cp
+     t = \text{centroid}_Q - R \cdot Cp
      \]$$
 
 6. **Apply Transformation**:
