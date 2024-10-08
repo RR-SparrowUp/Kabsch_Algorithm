@@ -111,4 +111,19 @@ To run this project locally, follow the steps below:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/kabsch-algorithm-app.git
+   [git clone https://github.com/your-username/kabsch-algorithm-app.git](https://github.com/RR-SparrowUp/Kabsch_Algorithm)
+
+2. Navigate to the project directory:
+   ```bash
+   cd Kabsch_Algorithm
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4.Running the Application
+  After installing the dependencies, run the Streamlit app:
+  ```bash
+  streamlit run app.py
+
+
