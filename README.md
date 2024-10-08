@@ -51,9 +51,9 @@ The transformation minimizes the difference between the two point sets.
 1. **Centering the Points**: 
    - Calculate the centroids of both point sets:
      
-     $$
-     \(centroid_P = \frac{1}{n} \sum_{i=1}^{n} p_i)
-     $$
+     
+     $$\(Cp = \frac{1}{n} \sum_{i=1}^{n} p_i)$$
+     
 
      $$
      \centroid_Q = \frac{1}{n} \sum_{i=1}^{n} q_i
