@@ -32,7 +32,7 @@ This project implements the **Kabsch algorithm** to find the optimal rotation an
 
 ### Mathematical Overview
 
-The **Kabsch algorithm** finds the optimal rotation matrix $$ \( R \)$$and translation vector $$\( t \)$$ that minimizes the root-mean-square deviation (RMSD) between two sets of points:$$ \( P \) (ground points)$$ and$$ \( Q \) (elevated points)$$.
+The **Kabsch algorithm** finds the optimal rotation matrix $$\( R \)$$and translation vector $$\( t \)$$ that minimizes the root-mean-square deviation (RMSD) between two sets of points:$$ \( P \) (ground points)$$ and$$ \( Q \) (elevated points)$$.
 
 Given two sets of corresponding points:
 - Ground points: \( P = \{p_1, p_2, \dots, p_n\} \)
