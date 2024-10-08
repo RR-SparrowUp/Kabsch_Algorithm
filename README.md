@@ -123,12 +123,11 @@ To run this project locally, follow the steps below:
    ```bash
    pip install -r requirements.txt
    ```
-
-4.Running the Application
-  After installing the dependencies, run the Streamlit app:
-    ```bash
-      streamlit run app.py
-    ```
+   
+4. Running the Application:
+   ```bash
+   streamlit run app.py
+   ```
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
