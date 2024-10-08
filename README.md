@@ -101,7 +101,7 @@ To run this project locally, follow the steps below:
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.11
 - [Streamlit](https://streamlit.io/) for building the web application
 - OpenCV for image processing
 - NumPy for numerical computations
